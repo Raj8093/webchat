@@ -1,0 +1,50 @@
+.wrapper{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/287/722/529/abstract-background-gray-wallpaper-preview.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1rem;
+}
+.brandName{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Noto_Serif variant1";
+    color: #021526;
+}
+.loginContainer{
+    height: 17rem;
+    width:18rem;
+    padding:1rem;
+    background-color: #0000000d;
+    box-shadow: 0px 0px 7px white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+}
+.header{
+    font-size: 22px;
+    font-weight: 600;
+    color:#021526 ;
+}
+.inputBoxes{
+    height: 2rem;
+    width: 14rem;
+    border-radius: 5px;
+    border: 1px solid #00000024;
+    padding: 2px 7px;
+    background-color: transparent;
+    font-size: 18px;
+}
+.LoginButton{
+    width: 85%;
+    height: 2rem;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+}
