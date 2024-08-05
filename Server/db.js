@@ -1,6 +1,12 @@
-// db.js
-import postgres from 'postgres'
+import pg from 'pg'
+const { Pool } = pg
 
-const sql = postgres({ /* options */ }) // will use psql environment variables
+const client = new Pool({
+    user: 'postgres',
+    host: '127.0.0.1',
+    database: 'weconectdb',
+    password: '12345',
+    port: 5432, // Default PostgreSQL port
+});
 
-export default sql
+export {client}
